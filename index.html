@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RomuLawn LLC | Family-Owned Lawn Care in Romulus, MI</title>
+<meta name="description" content="RomuLawn LLC is a family-owned lawn care company providing reliable, consistent service in Romulus, MI. Call today for a free quote.">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+header {
+    background: #1f5f2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background: #14401e;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.hero {
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    background: #2e8b57;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.phone {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2e8b57;
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+.services li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+form button {
+    background: #1f5f2c;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background: #1f5f2c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width: 600px) {
+    .phone {
+        font-size: 22px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>RomuLawn LLC</h1>
+    <p>Family-Owned Lawn Care in Romulus, MI</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Reliable. Consistent. Family-Owned.</h2>
+    <p class="phone"><a href="tel:7342383841">Call 734-238-3841</a></p>
+    <a href="#contact" class="button">Request a Free Quote</a>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li> Mowing</li>
+        <li> Trimming</li>
+        <li> Cleanups (Spring & Fall)</li>
+        <li> HOA & Community Services</li>
+    </ul>
+</section>
+
+<section id="about">
+    <h2>About RomuLawn LLC</h2>
+    <p>
+    RomuLawn LLC is a family-owned lawn care company focused on reliable,
+    consistent service in the Romulus community. We take pride in treating
+    every property like our own and delivering dependable results you can
+    count on week after week.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:7342383841">734-238-3841</a></p>
+    <p><strong>Email:</strong> <a href="mailto:romulawn@gmail.com">romulawn@gmail.com</a></p>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="How can we help?" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <h3>Find Us in Romulus, MI</h3>
+    <iframe 
+        src="https://www.google.com/maps?q=Romulus,MI&output=embed"
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2026 RomuLawn LLC | Romulus, Michigan</p>
+</footer>
+
+</body>
+</html>
